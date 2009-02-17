@@ -7,12 +7,16 @@
 	"""${2:($1 description)}"""
 	$0
 
-	class Admin:
-		list_display = ('',)
-		search_fields = ('',)
+	class Meta:
+		ordering = ('',)
+		get_latest_by = ''
+		verbose_name_plural = ('${1:Modelname}s',)
 
 	def __unicode__(self):
 		return u"$1"
+	
+	def get_absolute_url(self):
+		return "/${1:Modelname}/%s" % (self.id,)
 </string>
 	<key>name</key>
 	<string>Model Skeleton</string>
