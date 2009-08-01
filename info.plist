@@ -38,10 +38,8 @@
 			<string>382FACEA-E0B0-48BD-BD7B-9301E8BA2B58</string>
 		</array>
 	</dict>
-	<key>deleted</key>
-	<array/>
-	<key>isDelta</key>
-	<true/>
+	<key>name</key>
+	<string>Python Django</string>
 	<key>uuid</key>
 	<string>04734303-952E-44C6-BC53-650D4409E3BE</string>
 </dict>
